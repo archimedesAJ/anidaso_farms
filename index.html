@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="expires" content="0">
+    <title>Home | Anidaso Farms</title>
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/ANIDASO.png" />
+    <link href='styles.css?version=1' rel='stylesheet'></link>
+  </head>
+  <body onload="slider()">
+    <div>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" />
+        </div>
+        <ul>
+          <li><a id="home-anchor" href="#">Home</a></li>
+          <li><a id="Company-anchor" href="company.html">Company</a></li>
+          <li><a id="product-anchor" href="contact.html">Products</a></li>
+          <li><a id="blogs-anchor" href="#blog">Blog</a></li>
+          <li><a id="contact-anchor" href="contact.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="banner">
+      <div class="slider"></div>
+      <img src="images/hen.jpg" id="slideImg" />
+      <div class="overlay">
+        <div class="content">
+          <h1>Welcome to Anidaso Farms</h1>
+          <h3>Quality products for healthy Life</h3>
+
+          <div>
+            <button type="button" onclick="document.location='product.html'">
+              Egg Production
+            </button>
+            <button
+              type="button"
+              onclick="document.location='product.html'"
+              class="btn-2"
+            >
+              Chicken Production
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
